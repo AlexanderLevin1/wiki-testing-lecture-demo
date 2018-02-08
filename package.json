@@ -1,0 +1,18 @@
+{
+  "name": "wikistack-demo-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DATABASE_URL=postgres://localhost/wikistack_demo_testing ./node_modules/mocha/bin/mocha --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "pg": "^7.4.1",
+    "sequelize": "^4.32.7"
+  }
+}
